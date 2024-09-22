@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 1. **Clone this repository** and navigate to the project directory.
 2. Place your dataset (`Loan_default.csv`) in the directory.
-3. Run the `SK.py` script to preprocess the data, build the model, perform hyperparameter tuning, and evaluate the model.
+3. Run the `Loan_default.ipynb` script to preprocess the data, build the model, perform hyperparameter tuning, and evaluate the model.
 
 ## Hyperparameters and Model Tuning
 - **Hyperparameter Tuning** was performed using **GridSearchCV**, testing different values for the number of estimators, learning rate, and maximum depth.
